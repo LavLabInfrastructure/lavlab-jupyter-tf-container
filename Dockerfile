@@ -1,3 +1,3 @@
-FROM nvcr.io/nvidia/tensorflow:24.01-tf2-py3
+FROM quay.io/jupyter/tensorflow-notebook
 
-RUN pip3 install jupyterhub
+RUN pip3 install tensorflow-gpu
